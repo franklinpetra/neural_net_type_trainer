@@ -1,25 +1,32 @@
 {
   "name": "neural_net_type_trainer",
   "version": "1.0.0",
+  "homepage": "http://franklinpetra.github.io/neural_net_type_trainer",
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "franklinpetra/nerual_net_type_trainer": "^0.1.0"
   },
 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/franklinpetra/neural_net_type_trainer.git"
   },
-
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" 
+ 
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
-
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/franklinpetra/neural_net_type_trainer/issues"
-  },
-  "homepage": "https://github.com/franklinpetra/neural_net_type_trainer#readme"
+  }
 }
