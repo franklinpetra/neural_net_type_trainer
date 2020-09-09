@@ -1,0 +1,25 @@
+{
+  "name": "machine_learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franklinpetra/neural_net_type_trainer.git"
+  },
+
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" 
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franklinpetra/neural_net_type_trainer/issues"
+  },
+  "homepage": "https://github.com/franklinpetra/neural_net_type_trainer#readme"
+}
